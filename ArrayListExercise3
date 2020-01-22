@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
+
+		
+public class ArrayListExercise3 {
+	
+
+		public static void main(String[] args) 
+		{
+			List<String> colors = new ArrayList<String>();
+			colors.add("Green");
+			colors.add("Red");
+			colors.add("Voilet");
+			for(String color : colors )
+			{
+				System.out.println(color);
+			}
+			colors.add(0,"Blue");
+			System.out.println(colors);
+		}	
+}
