@@ -1,0 +1,11 @@
+import java.util.*;
+public class ArrayListExample {
+public static void main(String[] args) 
+{
+	List<String> colors = new ArrayList<String>();
+	colors.add("Green");
+	colors.add("Red");
+	colors.add("Voilet");
+	System.out.println(colors);
+}	
+}
