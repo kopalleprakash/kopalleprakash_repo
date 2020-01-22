@@ -1,0 +1,34 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.*;
+
+public class ArrayList_Ex9 {
+	public static void main(String[] args) {
+		List<String> colors = new ArrayList<String>();
+		
+		colors.add("G");
+		colors.add("R");
+		colors.add("V");
+		colors.add("W");
+		colors.add("P");
+		colors.add("Y");
+		
+		System.out.println("Colors :"+colors);
+		
+List<String> names = new ArrayList<String>();
+		
+		colors.add("P");
+		colors.add("S");
+		colors.add("A");
+		colors.add("N");
+		colors.add("S");
+		colors.add("M");
+	
+		System.out.println("Names :"+names);
+		
+		Collections.copy(colors,names);
+		System.out.println("Colors :"+names);
+		System.out.println("Names :"+colors);
+		
+	}
+}
