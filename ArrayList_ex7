@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class ArrayList_ex7 {
+	public static void main(String[] args) 
+	{
+		List<String> colors = new ArrayList<String>();
+		
+		colors.add("Green");
+		colors.add("Red");
+		colors.add("Voilet");
+		colors.add("White");
+		colors.add("Purple");
+		colors.add("Yellow");
+		
+		Scanner sc= new Scanner(System.in);
+		String key = sc.next();
+		if(colors.contains(key)) {
+		System.out.println("Match found");
+		}
+		else {
+			System.out.println("Match not found");
+		}
+	}	
+}
