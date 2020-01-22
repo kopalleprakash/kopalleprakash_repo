@@ -1,0 +1,20 @@
+import java.util.*;
+public class LinkedList_Ex3 {
+	public static void main(String[] args) {
+	
+	     LinkedList<String> l_list = new LinkedList<String>();
+	
+	          l_list.add("Prakash");
+	          l_list.add("Abhishek");
+	          l_list.add("Siva");
+	          l_list.add("Sindhu");
+	          l_list.add("Mounika");
+	
+	   Iterator p = l_list.listIterator(1);
+
+	
+	   while (p.hasNext()) {
+	   System.out.println(p.next());
+	   }
+	   }
+}
