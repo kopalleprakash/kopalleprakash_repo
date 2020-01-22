@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class ArrayList_Ex10 {
+	public static void main(String[] args) {
+		List<String> colors = new ArrayList<String>();
+		
+		colors.add("Green");
+		colors.add("Red");
+		colors.add("Voilet");
+		colors.add("White");
+		colors.add("Purple");
+		colors.add("Yellow");
+		
+		System.out.println(colors);
+		
+		Collections.shuffle(colors);
+		
+		System.out.println("After Shuffle :"+colors);
+	}
+}
