@@ -1,0 +1,17 @@
+import java.util.*;
+public class LinkedList_Ex1 {
+	public static void main(String[] args) {
+	    
+	     LinkedList<String> l_list = new LinkedList<String>();
+	  
+	          l_list.add("Prakash");
+	          l_list.add("Siva");
+	          l_list.add("Abhishek");
+	          l_list.add("Mounika");
+	          l_list.add("Sindhu");
+	         
+	  for (String element : l_list) {
+	    System.out.println(element);
+	    }
+	 }
+}
