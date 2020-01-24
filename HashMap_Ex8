@@ -1,0 +1,18 @@
+import java.util.*;
+public class HashMap_Ex8 {
+	public static void main(String[] args) 
+	{
+		HashMap<String,Integer> names = new HashMap<String,Integer>();
+		names.put("Prakash",1);
+		names.put("Abhishek",2);
+		names.put("Siva",3);
+		names.put("Mounika",4);
+		if(names.containsValue(5))
+				{System.out.println("Yes");
+		}
+		else 
+		{
+			System.out.println("No");
+		}
+	}
+}
