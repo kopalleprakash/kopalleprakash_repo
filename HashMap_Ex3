@@ -1,0 +1,18 @@
+import java.util.*;
+public class HashMap_Ex3 {
+public static void main(String[] args) 
+{
+	HashMap<Integer,String> names = new HashMap<Integer,String>();
+	names.put(1, "Prakash");
+	names.put(2, "Abhishek");
+	names.put(3, "Siva");
+	names.put(4, "Mounika");
+	System.out.println("This is the first Hash Map :"+names);
+	HashMap<Integer,String> namescpy = new HashMap<Integer,String>();
+	System.out.println("This is the Second Hash Map" +namescpy);
+	namescpy.putAll(names);
+	System.out.println("This is the first Hash Map :"+names);
+	System.out.println("This is the first Hash Map :"+namescpy);
+	
+}
+}
