@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class HashMap_Ex9 {
+	public static void main(String[] args) {
+		HashMap<Integer,String> names = new HashMap<Integer,String>();
+		names.put(1, "Prakash");
+		names.put(2, "Abhishek");
+		names.put(3, "Siva");
+		names.put(4, "Mounika");
+		Set set = names.entrySet(); 
+		System.out.println("This is the first Hash Map :"+set);
+		
+	}
+}
