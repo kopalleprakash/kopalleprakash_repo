@@ -1,0 +1,19 @@
+import java.util.*;
+public class LinkedList_Ex20 {
+public static void main(String[] args) 
+{
+	 LinkedList <String> names = new LinkedList <String> ();
+     names.add("Prakash");
+     names.add("Siva");
+     names.add("Abhishek");
+     names.add("Venkat");
+     
+     System.out.println("List of names list: " + names);
+     
+     String peek = names.peekFirst();
+     
+     System.out.println("List of names list: " + peek);
+     
+     System.out.println("List of names list: " + names);
+}
+}
