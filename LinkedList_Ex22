@@ -1,0 +1,18 @@
+import java.util.LinkedList;
+
+public class LinkedList_Ex22 {
+	public static void main(String[] args) {
+		 LinkedList <String> names = new LinkedList <String> ();
+	     names.add("Prakash");
+	     names.add("Siva");
+	     names.add("Abhishek");
+	     names.add("Venkat");
+	     
+	     if(names.contains("Prakash")) {
+	    	 System.out.println("Match Found");
+	     }else
+	     {
+	    	 System.out.println("Match does not found");
+	     }
+	}
+}
