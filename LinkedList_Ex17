@@ -1,0 +1,26 @@
+import java.util.*;
+public class LinkedList_Ex17 {
+	public static void main(String[] args) {
+		
+		  LinkedList <String> colors = new LinkedList <String> ();
+		  
+		          colors.add("Red");
+		          colors.add("Green");
+		          colors.add("Black");
+		          colors.add("White");
+		          colors.add("Pink");
+		          System.out.println("List of colors list: " + colors);
+		         LinkedList <String> names = new LinkedList <String> ();
+		          names.add("Prakash");
+		          names.add("Siva");
+		          names.add("Abhishek");
+		          names.add("Venkat");
+		          System.out.println("List of names list: " + names);
+		        
+		     
+		        LinkedList <String> a = new LinkedList <String> ();
+		        a.addAll(colors);
+		        a.addAll(names);
+		        System.out.println("New linked list: " + a);
+		             }
+}
