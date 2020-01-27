@@ -1,0 +1,25 @@
+import java.util.*;
+public class LinkedList_Ex18 {
+public static  void main(String[] args) 
+{
+	 LinkedList <String> colors = new LinkedList <String> ();
+	  
+     colors.add("Red");
+     colors.add("Green");
+     colors.add("Black");
+     colors.add("White");
+     colors.add("Pink");
+     System.out.println("List of colors list: " + colors);
+    LinkedList <String> names = new LinkedList <String> ();
+     names.add("Prakash");
+     names.add("Siva");
+     names.add("Abhishek");
+     names.add("Venkat");
+     System.out.println("List of names list: " + names);
+     
+     LinkedList<String> clone = new LinkedList<>();
+     clone = (LinkedList)names.clone();
+     System.out.println("Cloned List : " +clone);
+     
+}
+}
