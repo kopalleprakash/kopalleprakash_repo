@@ -1,0 +1,17 @@
+import java.util.*;
+public class LinkedList_Ex23 {
+	public static void main(String[] args) {
+		 LinkedList <String> names = new LinkedList <String> ();
+	     names.add("Prakash");
+	     names.add("Siva");
+	     names.add("Abhishek");
+	     names.add("Venkat");
+	     System.out.println("Linked List :"+names);
+	     
+	     List<String> nameslist = new ArrayList<String>(names);
+	     System.out.println("This is the Aarray List :");
+	for(String str : nameslist) {
+		System.out.println(str);
+	}
+	}
+}
