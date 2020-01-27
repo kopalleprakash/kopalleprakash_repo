@@ -1,0 +1,18 @@
+import java.util.*;
+import java.util.HashMap;
+import java.util.Set;
+public class HashMap_Ex12 {
+	public static void main(String[] args) 
+	{
+		HashMap<Integer,String> names = new HashMap<Integer,String>();
+		
+		names.put(1,"Prakash");
+		names.put(2,"Siva");
+		names.put(3,"Abhishek");
+		names.put(4,"Pooja  Hegde");
+		names.put(5,"Allu Arjun");
+		System.out.println("The Values are : " +names.values());
+		
+		
+	}
+}
