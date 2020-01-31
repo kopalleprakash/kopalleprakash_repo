@@ -1,0 +1,13 @@
+create table salesman(salesman_id integer,name varchar(25),city varchar(25),comission float)
+select * from salesman;
+insert into salesman values(5003,'Lauson Hen','San Jose', 0.12);
+
+create table customer(customer_id integer primary key, cust_name varchar(25), city varchar(25),grade integer,salesman_id integer);
+
+select * from customer;
+insert into customer values(3001,'Brad Guzan','London',null,5005);
+
+select salesman.name AS "Salesman", 
+customer.cust_name, customer.city 
+from salesman,customer 
+where salesman.city = customer.city;
