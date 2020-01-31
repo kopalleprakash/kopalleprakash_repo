@@ -1,0 +1,6 @@
+select * from salesman;
+select * from customer;
+
+select  c.cust_name,c.city,s.name As "Salesman_Name",s.comission
+from salesman s,customer c 
+where s.salesman_id=c.salesman_id;
