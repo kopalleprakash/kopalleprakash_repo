@@ -1,0 +1,30 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Books">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Book1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Title"/>
+              <xs:element type="xs:string" name="Author"/>
+              <xs:element type="xs:date" name="PublishingDate"/>
+              <xs:element type="xs:string" name="Description"/>
+              <xs:element type="xs:short" name="Price"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Book2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Title"/>
+              <xs:element type="xs:string" name="Author"/>
+              <xs:element type="xs:date" name="PublishingDate"/>
+              <xs:element type="xs:string" name="Description"/>
+              <xs:element type="xs:short" name="Price"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
