@@ -1,0 +1,32 @@
+Books
+{
+  background-color: black
+}
+Book1
+{
+  color : green;
+}
+Book2
+{
+  color : gray;
+}
+Title
+{
+  color : yellow;
+}
+Author
+{
+  color : pink;
+}
+PublishingDate
+{
+  color : orange;
+}
+Description
+{
+  color : white;
+}
+Price
+{
+  color : red;
+}
