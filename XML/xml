@@ -1,1 +1,19 @@
-
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="Books.css"?> 
+<Books>
+    <Book1>
+        <Title>Wings of Fire</Title>
+        <Author>APJ Abdul Kalam</Author>
+        <PublishingDate>2017-05-03</PublishingDate>
+        <Publication>APJ</Publication>
+        <Description>Its about his life</Description>
+        <Price>2000</Price>
+    </Book1>
+    <Book2>
+        <Title>Harry Potter</Title>
+        <Author>Harry</Author>
+        <PublishingDate>2017-05-04</PublishingDate>
+        <Publication>WB</Publication>
+        <Description>Its a strory which contans magic</Description>
+        <Price>12000</Price>
+    </Book2>
